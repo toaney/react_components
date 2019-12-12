@@ -24,7 +24,11 @@ const LuckyNumberGenerator = () => {
 
     //helper function to generate mega
 
-
+    return(
+        <h2>Lucky Number Generator</h2>
+    )
 
 
 }
+
+export default LuckyNumberGenerator;
