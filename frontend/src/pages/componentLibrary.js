@@ -25,11 +25,11 @@ const ComponentLibrary = () => {
     return (
         <div className="page">
             <LuckyNumberGenerator />
-            <Hero 
+            {/* <Hero 
                 heroBackground=""
                 heroTitle="Earn 4x on Travel or Use Points to Pay"
                 heroCaption=""
-            />
+            /> */}
             {assets.map( (item, index) => (
                 <Feature 
                     contentRight = {(index%2 === 0)? true : false}
