@@ -1,6 +1,9 @@
 import React from 'react';
 
 const LuckyNumberGenerator = () => {
+    //create separate generator for super lotto and for mega millions
+
+
     //pull past winning numbers
     //pull in date info
     //pull in time info
