@@ -1,6 +1,10 @@
 import React from 'react';
+import axios from 'axios';
+
 
 const LuckyNumberGenerator = () => {
+    const [pastWinningNumbers, setPastWinningNumbers] = React.useState([]);
+    const [luckyNumbers, setLuckyNumbers] = React.useState([]);
     //create separate generator for super lotto and for mega millions
 
 
@@ -32,6 +36,11 @@ const LuckyNumberGenerator = () => {
     )
 
 
+}
+
+LuckyNumberGenerator.propTypes = {
+    pastWinningNumbers: React.Proptypes.array,
+    luckyNumbers: React.Proptypes.array
 }
 
 export default LuckyNumberGenerator;
