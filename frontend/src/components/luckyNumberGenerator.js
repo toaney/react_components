@@ -38,7 +38,8 @@ const LuckyNumberGenerator = () => {
         <React.Fragment>
             <h2>Lucky Number Generator</h2>
             <button onClick={()=> generateNumbers()}>Winner Winner Chicken Dinner</button>
-
+            <button onClick={()=> generateNumbers()}>You've Struck Gold!</button>
+            <button onClick={()=> generateNumbers()}>Big Money Big Money Big Money</button>
         </React.Fragment>
     )
 
