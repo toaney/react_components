@@ -7,6 +7,9 @@ const LuckyNumberGenerator = () => {
     const [luckyNumbers, setLuckyNumbers] = React.useState([]);
     //create separate generator for super lotto and for mega millions
 
+    const generateNumbers = () => {
+        console.log("checkpoint");
+    }
 
     //pull past winning numbers
     //pull in date info
@@ -32,7 +35,11 @@ const LuckyNumberGenerator = () => {
     //helper function to generate mega
 
     return(
-        <h2>Lucky Number Generator</h2>
+        <React.Fragment>
+            <h2>Lucky Number Generator</h2>
+            <button onClick={()=> generateNumbers()}>Winner Winner Chicken Dinner</button>
+
+        </React.Fragment>
     )
 
 
